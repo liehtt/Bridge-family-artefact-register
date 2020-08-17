@@ -1,0 +1,16 @@
+@import "../vendors/bootstrap.scss";
+@import "../components/button.scss";
+@import "../components/form.scss";
+
+#main-page-background {
+    background-size: cover;
+    background-image: url(../../images/blue-background.jpg);
+    background-attachment: fixed;
+    min-height: 100%;
+    width: 100%;
+}
+
+.arrow-image{
+    position: absolute;
+}
+

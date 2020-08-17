@@ -1,0 +1,46 @@
+{
+  "name": "comp30022_it_project",
+  "version": "1.0.0",
+  "description": "A web app for sharing the family artifacts.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive --exit",
+    "start": "node index.js",
+    "heroku-postbuild": "cd client && npm install --only=dev && npm install && npm run build",
+    "coverage": "nyc npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JasonSuMY/COMP30022_IT_Project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JasonSuMY/COMP30022_IT_Project/issues"
+  },
+  "homepage": "https://github.com/JasonSuMY/COMP30022_IT_Project#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "cloudinary": "^1.14.0",
+    "connect-mongo": "^3.0.0",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.17.1",
+    "express-session": "^1.16.2",
+    "mocha": "^6.2.0",
+    "mongodb-memory-server": "^5.2.0",
+    "mongoose": "^5.6.9",
+    "multer": "^1.4.2",
+    "multer-storage-cloudinary": "^2.2.1",
+    "node-sass": "^4.12.0",
+    "nodemailer": "^6.3.1",
+    "nodemon": "^1.19.1",
+    "server": "^1.0.19",
+    "supertest": "^4.0.2"
+  },
+  "devDependencies": {
+    "nyc": "^14.1.1"
+  }
+}
