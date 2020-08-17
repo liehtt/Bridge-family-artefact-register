@@ -1,6 +1,6 @@
 # COMP30022 IT Project 2019 - Team Bridge
 
-Family Artefact Register is a web application with MERN stack for storage and sharing of family artefacts catered to families.
+Family Artefact Register is a web application with MERN stack for storage and sharing of family artefacts.
 
 ## To access webpage
 https://comp30022-bridge.herokuapp.com/
